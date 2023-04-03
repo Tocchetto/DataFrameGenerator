@@ -19,7 +19,7 @@ Func GetRandomValueFromNumRange($arRange, $bInteger)
 		$nRandomNumber = Random($arRange[0], $arRange[1])
 	EndIf
 
-	Return $nRandomNumber
+	Return Round($nRandomNumber, 6)
 EndFunc
 
 Func GetRandomValueFromStringRange($arRange)
